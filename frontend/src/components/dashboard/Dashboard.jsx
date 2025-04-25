@@ -1,9 +1,9 @@
 import React, { useDebugValue, useEffect, useState } from 'react'
 import UserProfile from './UserProfile'
-// import UserJobRecommendation from './UserJobRecommendation'
+import UserJobRecommendation from './UserJobRecommendation'
 // import SkillQuestBoard from '../SkillQuestBoard/SkillQuestBoard'
 import SkillsChart from './SkillBarChart'
-// import GithubAnalyser from "../analyser/GithubAnalyser"
+import GithubAnalyser from "../analyser/GithubAnalyser"
 
 import config from "../../config";
 import { useContext } from 'react';
@@ -95,11 +95,11 @@ function Dashboard() {
         <SkillsChart apiUrl={config.apiUrl} userData={userData}/>
       </div>
       <div className='col-span-1 w-full'>
-        {/* <UserJobRecommendation apiUrl={config.apiUrl} job1={userData.predicted_job_role} match={userData.predicted_average_score} domain={userData.domain} /> */}
+        <UserJobRecommendation apiUrl={config.apiUrl} job1={userData.predicted_job_role} match={userData.predicted_average_score} domain={userData.domain} />
       </div>
       <div className='col-span-1 lg:col-span-3 w-full'>
         {/* <SkillQuestBoard skills={learningSkills} /> */}
-        {/* <GithubAnalyser/> */}
+        <GithubAnalyser/>
       </div>
           
     </div>

@@ -318,3 +318,69 @@ Skill1,Skill2,Skill3,Skill4,Skill5,Skill6,Skill7,Skill8,Proficiency Level,Skill 
 4,9,6,12,8,5,3,6,Beginner,Frontend Development,1,Junior Developer,5.8
 5,6,7,8,9,10,3,7,Beginner,Software Engineering,0,Intern/Trainee,5.9
 10,4,11,8,7,3,9,4,Beginner,UI/UX Design,1,Junior Designer,6.0
+100,98,93,90,98,92,98,90,Advanced,Web Development,19,Tech Architect,94.88
+99,98,94,93,95,92,97,91,Advanced,SEO,19,Expert Consultant,94.88
+92,90,92,92,92,96,95,96,Advanced,SEO,15,Expert Consultant,93.12
+98,95,94,94,97,94,96,91,Advanced,UI/UX Design,17,Expert Consultant,94.88
+91,98,98,100,91,95,90,97,Advanced,UI/UX Design,14,Tech Architect,95.0
+97,91,97,96,90,98,91,94,Advanced,Software Engineering,13,Lead Engineer,95.5
+95,91,96,98,95,96,96,93,Advanced,Web Design,19,Principal Developer,95.0
+94,91,92,95,98,91,90,92,Advanced,Frontend Development,20,Tech Architect,92.88
+94,91,90,90,97,93,94,91,Advanced,Software Development,18,Senior Developer,91.25
+97,99,97,91,91,91,90,99,Advanced,Full Stack Development,14,Tech Architect,94.38
+95,91,92,94,98,91,93,98,Advanced,Full Stack Development,20,Lead Engineer,95.25
+92,90,99,98,92,90,93,97,Advanced,Frontend Development,18,Senior Developer,93.88
+98,96,95,92,91,95,91,97,Advanced,Mobile Development,13,Principal Developer,94.38
+99,90,92,93,97,92,93,99,Advanced,Backend Development,17,Lead Engineer,94.38
+98,94,97,91,93,91,92,91,Advanced,Web Design,16,Lead Engineer,93.38
+91,91,90,95,96,91,91,91,Advanced,Backend Development,15,Senior Developer,92.0
+95,90,91,95,91,91,97,91,Advanced,Web Development,18,Lead Engineer,91.38
+99,96,91,98,98,94,96,94,Advanced,Web Design,20,Tech Architect,95.75
+94,93,92,98,95,91,94,91,Advanced,Web Development,19,Principal Developer,93.5
+91,90,93,94,95,92,90,94,Advanced,Data Analysis,12,Expert Consultant,92.38
+95,95,90,97,94,95,91,90,Advanced,Software Engineering,19,Tech Architect,93.38
+97,92,97,91,94,95,90,92,Advanced,UI/UX Design,17,Senior Developer,93.5
+94,97,92,95,95,91,96,91,Advanced,Full Stack Development,16,Principal Developer,93.88
+91,94,92,98,93,91,98,93,Advanced,Web Design,14,Lead Engineer,93.75
+91,90,90,90,97,90,98,94,Advanced,Frontend Development,15,Senior Developer,91.25
+93,96,92,98,97,92,91,98,Advanced,Web Design,20,Tech Architect,95.88
+91,91,94,90,90,95,92,91,Advanced,Backend Development,18,Senior Developer,91.75
+91,92,92,91,90,92,97,91,Advanced,Web Development,17,Senior Developer,91.5
+90,90,98,91,94,90,98,92,Advanced,Software Development,19,Principal Developer,91.63
+91,93,93,91,90,91,96,94,Advanced,Frontend Development,15,Lead Engineer,92.38
+93,97,90,91,91,97,97,91,Advanced,Backend Development,16,Tech Architect,93.38
+91,91,98,91,94,91,90,92,Advanced,UI/UX Design,14,Senior Developer,91.0
+96,90,97,94,95,91,90,90,Advanced,Web Design,13,Expert Consultant,91.63
+91,90,91,98,90,90,94,92,Advanced,Web Development,20,Tech Architect,91.5
+95,95,91,91,91,90,94,91,Advanced,Software Engineering,15,Lead Engineer,91.0
+93,91,90,91,91,92,91,98,Advanced,Mobile Development,18,Tech Architect,91.88
+98,97,92,90,95,98,90,91,Advanced,Web Development,17,Lead Engineer,93.88
+90,93,91,97,91,92,91,95,Advanced,Frontend Development,16,Principal Developer,91.25
+93,95,91,98,91,95,97,98,Advanced,Web Design,19,Tech Architect,96.0
+94,97,97,98,92,98,94,95,Advanced,Software Engineering,20,Principal Developer,95.63
+91,91,94,91,91,91,90,92,Advanced,Web Development,12,Senior Developer,91.38
+98,90,97,91,94,94,91,97,Advanced,Software Development,17,Lead Engineer,94.0
+96,90,90,94,94,90,97,91,Advanced,Backend Development,18,Expert Consultant,91.5
+95,97,98,95,92,92,91,91,Advanced,Full Stack Development,16,Lead Engineer,93.88
+91,90,92,91,91,91,98,90,Advanced,Data Science,14,Senior Developer,91.75
+94,98,97,95,92,98,92,92,Advanced,Data Analysis,20,Principal Developer,94.75
+93,91,91,94,92,97,97,91,Advanced,Web Development,19,Lead Engineer,93.25
+96,92,94,90,90,95,94,91,Advanced,Frontend Development,18,Lead Engineer,91.5
+90,91,97,91,90,94,91,90,Advanced,Web Development,17,Senior Developer,90.5
+91,90,90,92,95,98,91,90,Advanced,Software Engineering,19,Expert Consultant,91.13
+95,97,98,97,95,97,95,90,Advanced,Backend Development,20,Tech Architect,95.5
+94,92,90,90,98,97,91,97,Advanced,Data Science,16,Principal Developer,93.63
+91,91,91,92,97,91,90,92,Advanced,Web Development,15,Lead Engineer,91.88
+97,95,91,94,94,91,90,91,Advanced,Software Development,18,Tech Architect,91.63
+91,90,91,90,91,98,91,91,Advanced,UI/UX Design,17,Lead Engineer,90.88
+98,98,94,91,91,91,91,90,Advanced,Web Design,20,Expert Consultant,91.75
+92,94,91,94,91,91,90,91,Advanced,Backend Development,13,Senior Developer,91.75
+97,92,92,91,90,91,90,91,Advanced,Web Development,14,Tech Architect,91.75
+90,90,92,94,91,94,94,91,Advanced,Software Engineering,15,Principal Developer,91.5
+91,90,91,91,90,91,94,91,Advanced,Web Design,18,Senior Developer,91.13
+91,90,90,90,91,91,90,90,Advanced,Frontend Development,20,Tech Architect,90.38
+94,94,92,98,92,94,94,91,Advanced,Web Development,16,Lead Engineer,93.63
+96,97,90,97,97,91,90,92,Advanced,Software Development,20,Principal Developer,93.75
+90,90,91,98,91,90,97,97,Advanced,Software Engineering,15,Tech Architect,91.75
+95,91,91,91,98,94,91,91,Advanced,Web Development,14,Lead Engineer,92.75
+94,95,91,97,90,91,90,98,Advanced,Data Science,18,Expert Consultant,92.0
