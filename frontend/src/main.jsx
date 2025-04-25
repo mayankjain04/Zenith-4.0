@@ -12,9 +12,9 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />} >
       <Route path='/' element={<HeroSection />} />
-      {/* <Route path='/login' element={<Login />} />
+      <Route path='/login' element={<Login />} />
       <Route path='/signup' element={<Signup />} />
-      <Route path='/job' element={<JobRecommendation />} />
+      {/* <Route path='/job' element={<JobRecommendation />} />
       <Route path='/skill-assessment' element={<SkillAssessment />} />
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/learn' element={<Playlist />} />
