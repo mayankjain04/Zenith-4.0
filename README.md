@@ -1,8 +1,11 @@
 # CareerQuest
 
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20Demo%20Video-YouTube-red?logo=youtube)](https://youtu.be/3lc-5bHUP7E?si=FvQFaUL7njEQDk1L)
+
 **AI-Powered Career Guidance Platform**
 
 CareerQuest is an AI-driven platform designed to simplify career selection. It assesses users' skills, recommends suitable job roles, and provides access to free online learning resources, empowering users to make informed career decisions.
+
 
 ## 🚀 Features
 
