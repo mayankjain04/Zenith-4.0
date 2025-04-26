@@ -1,4 +1,4 @@
-# CareerQuest
+# CareerQuest | [link](https://project-careerquest.vercel.app)
 
 [![Watch on YouTube](https://img.shields.io/badge/Watch%20Demo%20Video-YouTube-red?logo=youtube)](https://youtu.be/3lc-5bHUP7E?si=FvQFaUL7njEQDk1L)
 
