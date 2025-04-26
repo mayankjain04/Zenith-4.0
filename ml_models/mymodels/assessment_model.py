@@ -130,8 +130,8 @@ def predict_for_new_user(user_data):
         predicted_average_score = model_avg_score.predict(new_user_df)
 
         # Decode categorical predictions
-        decoded_proficiency = label_encoder_proficiency.inverse_transform(predicted_proficiency)[0]
-        decoded_job_role = label_encoder_job_role.inverse_transform(predicted_job_role)[0]
+        decoded_proficiency = label_encoder_proficiency.inverse_transform(predicted_proficiency)[0].title()
+        decoded_job_role = label_encoder_job_role.inverse_transform(predicted_job_role)[0].title()
 
         return decoded_proficiency, decoded_job_role, predicted_average_score, "success"
     except ValueError as e:

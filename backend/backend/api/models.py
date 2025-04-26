@@ -9,6 +9,7 @@ class UserData(models.Model):
     skills = models.JSONField()  # Stores skill names and levels as a JSON object
     domain = models.CharField(max_length=100)
     experience = models.IntegerField()
+    next_skills = models.JSONField(null=True, blank=True)
 
     # New fields to store model response
     predicted_proficiency = models.CharField(max_length=100 ,null=True, blank=True)

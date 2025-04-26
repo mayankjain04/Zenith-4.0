@@ -18,9 +18,11 @@ for _ in range(4):  # Move up 4 levels
 
 # Add the ml_models directory to sys.path
 sys.path.append(os.path.join(root_dir, 'ml_models'))
+sys.path.append(os.path.join(root_dir, 'nextskill'))
 
 # Now we can import from ml_models
 from mymodels import assessment_model
+from nextskill import nextskill
 # from ml_models.nextskill import nextskill
 
 YT_API_KEY = os.environ.get("YT_API_KEY")
@@ -184,13 +186,33 @@ class UserDataAPIView(APIView):
 
 class FindPlaylist(APIView):
     def post(self, request, *args, **kwargs):
+        try:
+            data_obj = UserData.objects.filter(user=request.user).last()
+            skills = data_obj.skills
+            skills = {k.strip(): v for k, v in skills.items()}
+
+        except Exception as e:
+            print(e)
+            return Response({"error": "User data not found"}, status=status.HTTP_404_NOT_FOUND)
+        
+        rec_skills = nextskill.run_recommendation(skills)
+        print(f"ml model response: ${rec_skills}")
+        if isinstance(rec_skills, list):
+            skill = rec_skills[0] if len(rec_skills) > 1 else rec_skills
+        else:
+            skill = rec_skills  # in case it's not even a list
+
+        print(f"Next recommended skill: ${skill}")
+        
         query = self.kwargs.get('q')
+        if query == 'AI recommended skill':
+            query = skill
         page_token = request.data.get('pageToken', '')
         language = request.data.get('language', 'en')  # Optional: Default to English
 
         url = (
             f"https://www.googleapis.com/youtube/v3/search"
-            f"?part=snippet&q={query}+skill+development&type=playlist"
+            f"?part=snippet&q={query}+skill+development+in+english&type=playlist"
             f"&maxResults=9&order=relevance&relevanceLanguage={language}"
             f"&key={YT_API_KEY}"
         )
